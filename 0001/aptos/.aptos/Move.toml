@@ -1,0 +1,12 @@
+[package]
+name = "hello_blockchain"
+version = "0.0.1"
+ 
+[addresses]
+ # Use your account's actual hex address generated earlier
+hello_blockchain = "0xd3df39c78f14140d7b42d3f8e967b1863f6f2d3d721fcc5457e2f9d8377c2338"
+ 
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = "mainnet"
+subdir = 'aptos-move/framework/aptos-framework'
